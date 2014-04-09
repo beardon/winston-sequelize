@@ -1,0 +1,23 @@
+{
+  "name": "winston-sequelize",
+  "description": "Sequelize transport for Winston",
+  "version": "0.0.1",
+  "author": "Beardon Services",
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "db",
+    "mysql",
+    "postgres",
+    "sequelize"
+  ],
+  "private": true,
+  "main": "./lib/winston-sequelize",
+  "dependencies": {
+    "sequelize": "~1.7.0",
+    "winston": "~0.7.2",
+    "soap": "~0.4.2"
+  }
+}
