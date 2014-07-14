@@ -1,23 +1,31 @@
 {
-  "name": "winston-sequelize",
-  "description": "Sequelize transport for Winston",
-  "version": "0.0.1",
-  "author": "Beardon Services",
-  "keywords": [
-    "logging",
-    "sysadmin",
-    "tools",
-    "winston",
-    "db",
-    "mysql",
-    "postgres",
-    "sequelize"
-  ],
-  "private": true,
-  "main": "./lib/winston-sequelize",
-  "dependencies": {
-    "sequelize": "~1.7.0",
-    "winston": "~0.7.2",
-    "soap": "~0.4.2"
-  }
+    "name": "winston-sequelize",
+    "description": "Sequelize transport for Winston",
+    "version": "0.0.2",
+    "keywords": [
+        "logging",
+        "sysadmin",
+        "tools",
+        "winston",
+        "db",
+        "mysql",
+        "postgres",
+        "sequelize"
+    ],
+    "homepage": "https://github.com/beardon/winston-sequelize",
+    "bugs": {
+        "url" : "https://github.com/beardon/winston-sequelize/issues",
+        "email" : "aaron.bean@beardon.com"
+    },
+    "author": {
+        "name": "Aaron Bean",
+        "email": "aaron.bean@beardon.com",
+        "url": "https://github.com/aaronbean"
+    },
+    "main": "./lib/winston-sequelize",
+    "dependencies": {
+        "sequelize": "~1.7.0",
+        "winston": "~0.7.2",
+        "soap": "~0.4.2"
+    }
 }
