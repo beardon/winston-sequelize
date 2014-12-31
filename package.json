@@ -1,7 +1,7 @@
 {
   "name": "winston-sequelize",
   "description": "Sequelize transport for Winston",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "logging",
     "sysadmin",
@@ -13,6 +13,10 @@
     "sequelize"
   ],
   "homepage": "https://github.com/beardon/winston-sequelize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beardon/winston-sequelize.git"
+  },
   "bugs": {
     "url": "https://github.com/beardon/winston-sequelize/issues",
     "email": "aaron.bean@beardon.com"
@@ -24,8 +28,7 @@
   },
   "main": "./lib/winston-sequelize",
   "dependencies": {
-    "lodash": "^2.4.1",
-    "sequelize": "^1.7.9",
-    "winston": "^0.7.3"
+    "sequelize": "^2.0.0-rc4",
+    "winston": "^0.8.3"
   }
 }
