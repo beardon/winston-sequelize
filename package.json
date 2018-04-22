@@ -1,7 +1,7 @@
 {
   "name": "winston-sequelize",
   "description": "Sequelize transport for Winston",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "keywords": [
     "logging",
     "sysadmin",
@@ -28,7 +28,7 @@
   },
   "main": "./lib/winston-sequelize",
   "dependencies": {
-    "sequelize": "^3.30.2",
-    "winston": "^2.3.1"
+    "sequelize": "^4.37.6",
+    "winston": "^2.4.1"
   }
 }
